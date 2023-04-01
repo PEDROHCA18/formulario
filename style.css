@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(0, 238, 255),rgb(27, 139, 245));
+    display: flex;
+    justify-items: center;
+}
+
+.contanier{
+
+    left: 40%;
+    color:black;
+    position: absolute;
+    text-align: center;
+}
+
+legend{
+    border: 1px solid darkgray;
+    padding: 10px;
+    text-align: center;
+    background-color: azure;
+    border-radius: 8px;
+}
+.input{
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: rgb(22, 22, 22);
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelinput{
+    color: black;
+    
+=======
+  margin:0;
+  padding: 0;
+box-sizing: border-box;
+
+} 
+body{
+  font-family: Arial, Helvetica, sans-serif; 
+  background:linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+
+} 
+
+.contanier{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 70px;
+  border-radius:15px;
+
+}
+
+fieldset{
+  border: 3px solid dodgerblue;
+        } 
+
+legend{ 
+  border: 1px solid dodgerblue;
+  padding: 10px; 
+  text-align: center; 
+  background-color: dodgerblue; 
+  border-radius: 8px;
+}
+.guarda{
+  position: relative; 
+}
+.inputuser{
+  background: none; 
+  border: none;
+  border-bottom:1px solid white; 
+  outline: none;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px; 
+  
+>>>>>>> 5ab0e0645c3abab76cdbb9874c8f8468f7a5b467
+}
+
+.input:focus ~.labelinput,
+.input:valid ~.labelinput{
+    top: -20px;
+    font-size: 12px;
+    color: black;
+}
+.pret{
+    color: black;
+}
