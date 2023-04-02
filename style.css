@@ -44,8 +44,8 @@ box-sizing: border-box;
 
 } 
 
-
 .contanier{
+  width:55%;
   color: white;
   position: absolute;
   top: 50%;
@@ -84,6 +84,10 @@ legend{
   
 
 }
+.pedro{
+  width: 100%;
+}
+
 
 .input:focus ~.labelinput,
 .input:valid ~.labelinput{
